@@ -115,8 +115,8 @@ const (
 	Voice2Male   = "m2"
 	VoiceFemail  = "w"
 	Voice2Femail = "w2"
-	Voice3Femail = "w2"
-	Voice4Femail = "w2"
+	Voice3Femail = "w3"
+	Voice4Femail = "w4"
 )
 
 // Выбор голоса используемого для озвучивания текста. Для голосовых сообщений.

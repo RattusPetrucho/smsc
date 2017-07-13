@@ -209,7 +209,7 @@ func (sc *Client) GetVoiceCost(message string, phones ...string) (*Response, err
 }
 
 // Отправка email сообщения
-// subkect - Тема сообщения, обязательный параметр.
+// subject - Тема сообщения, обязательный параметр.
 // message - Тело сообщения
 // emails - список email адресов
 func (sc *Client) SendEmail(subject, message string, emails ...string) (*Response, error) {
