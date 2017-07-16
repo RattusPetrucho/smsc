@@ -4,7 +4,7 @@
 ##Instalation
 
 ```
-go get github.com/RattusPetrucho/bashorg_reader
+go get github.com/RattusPetrucho/smsc
 ```
 ##Documentation
 
