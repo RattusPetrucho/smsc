@@ -1,5 +1,5 @@
 # smsc
-Пакет smsc предназначен для отправки сообщений через https://smsc.ru
+Пакет smsc предназначен для отправки сообщений через https://smsc.ru.
 
 ##Instalation
 
@@ -11,7 +11,7 @@ go get github.com/RattusPetrucho/bashorg_reader
 import "github.com/RattusPetrucho/smsc"
 
 
-Создание объекта клиента. Принимает login и пароль/md5-hash пароля от аккаунта smsc.ru
+Создание объекта клиента. Принимает login и пароль/md5-hash пароля от аккаунта smsc.ru. Клиент безопасен для одновременного использования несколькими goroutines.
 ```
 sc, err := smsc.New("login", "password")
 if err != nil {
